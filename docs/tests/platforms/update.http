@@ -1,0 +1,9 @@
+PUT /api/platforms/2 HTTP/1.1
+Content-Type: application/json
+Host: localhost:8000
+
+{
+    "name": "MegaDrive",
+    "manufacturer": "Sega",
+    "status": 2
+}

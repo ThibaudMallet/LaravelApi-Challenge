@@ -1,0 +1,9 @@
+PUT /api/videogames/2 HTTP/1.1
+Content-Type: application/json
+Host: localhost:8000
+
+{
+	"name": "NBA Jam 2020",
+	"editor": "Midway",
+	"status": 1
+}

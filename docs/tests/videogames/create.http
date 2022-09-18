@@ -1,0 +1,9 @@
+POST /api/videogames HTTP/1.1
+Content-Type: application/json
+Host: localhost:8000
+
+{
+	"name": "Mario Kart",
+	"editor": "Nintendo",
+	"status": 1
+}

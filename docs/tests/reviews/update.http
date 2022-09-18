@@ -1,0 +1,17 @@
+PUT /api/reviews/2 HTTP/1.1
+Content-Type: application/json
+Host: localhost:8000
+
+{
+    "title": "Du basket spectaculaire et sensationnel",
+    "text": "Qui n'a jamais rêvé de dunker après avoir touché le plafond de la salle ? Ou de faire un 2880° avant de dunker ? Et bien NBA Jam l'a fait ! Des matchs 2 contre 2 intenses et spectaculaires vous permettront de tenir une balle en feu et de cramer les filets du panier.",
+    "author": "Jeannot",
+    "publication_date": "2019-12-14",
+    "display_note": 3,
+    "gameplay_note": 7,
+    "scenario_note": 5,
+    "lifetime_note": 7,
+    "videogame_id": 2,
+    "platform_id": 2,
+    "status": 1
+}

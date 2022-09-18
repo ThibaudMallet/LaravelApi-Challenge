@@ -1,0 +1,17 @@
+POST /api/reviews HTTP/1.1
+Content-Type: application/json
+Host: localhost:8000
+
+{
+    "title": "Gérer un hopital n'a jamais été aussi fun",
+    "text": "Vous avez toujours rêvé d'être un gestionnaire sans scrupule, prêt à se faire de l'argent sur le malheur des autres ? Ça tombe bien, Theme Hospital vous propose de faire votre beurre sur le dos des malades. N'oubliez pas votre Carte Vitale.",
+    "author": "JD",
+    "publication_date": "2019-12-05",
+    "display_note": 4,
+    "gameplay_note": 8,
+    "scenario_note": 9,
+    "lifetime_note": 8,
+    "videogame_id": 2,
+    "platform_id": 3,
+    "status": 1
+}
